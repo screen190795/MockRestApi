@@ -3,15 +3,17 @@ package ru.bellIntegrator.mockRestApi.data;
 public class Account {
     private String email;
     private String password;
+    public Integer id;
 
 
     public Account(){
 
     }
 
-    public Account(String email, String password) {
+    public Account(String email, String password, Integer id) {
         this.email = email;
         this.password = password;
+        this.id = id;
     }
 
     public String getEmail() {
@@ -29,4 +31,10 @@ public class Account {
     public void setPassword(String password) {
         this.password = password;
     }
+
+	public Integer getId() {
+		return id;
+	}
+    
+    
 }

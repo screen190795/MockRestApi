@@ -57,7 +57,7 @@ public class User {
         return firstName;
     }
  
-    public void setFirstName(String firsName) {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
     
@@ -76,5 +76,7 @@ public class User {
     public void setAvatar(String avatar) {
         this.avatar = avatar;
     }
+    
+    
 
 }
